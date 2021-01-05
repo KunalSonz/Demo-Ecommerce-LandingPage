@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ASSIGNMENT</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.min.css" integrity="sha512-wCwx+DYp8LDIaTem/rpXubV/C1WiNRsEVqoztV0NZm8tiTvsUeSlA/Uz02VTGSiqfzAHD4RnqVoevMcRZgYEcQ==" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.min.css" integrity="sha512-wYsVD8ho6rJOAo1Xf92gguhOGQ+aWgxuyKydjyEax4bnuEmHUt6VGwgpUqN8VlB4w50d0nt+ZL+3pgaFMAmdNQ==" crossorigin="anonymous" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap" rel="stylesheet">
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.0/css/mdb.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <!--Navbar-->
+  <div class="topnavb">
+    <nav class="navbar  navbar-dark bg-white">
+
+      <!-- Navbar brand -->
+      <a class="navbar-brand" href="#">
+        <img src="logo.PNG" height="70" alt="mdb logo">
+      </a>
+  
+      <!-- Collapse button -->
+      <!-- <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+      aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text"><i
+          class="fas fa-bars fa-1x"></i></span></button> -->
+
+      
+  
+      <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+        aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon">
+          <i
+          class="fas fa-bars fa-1x"></i>
+        </span>
+      </button>
+
+      
+  
+      <!-- Collapsible content -->
+      <div class="collapse navbar-collapse" id="basicExampleNav">
+  
+        <!-- Links -->
+        
+        <!-- Links -->
+        <div class="ser">
+        <div class="input-group md-form form-sm form-2 pl-0">
+        <input class="form-control my-0 py-1 red-border" type="text" placeholder="Search" aria-label="Search">
+        <div class="input-group-append">
+          
+          <span class="input-group-text"><i class="fas fa-search text-grey"
+              ></i></span>
+        </div>
+      </div>
+      </div>
+        
+        <!-- <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Hi shivani
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">wows</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">bags</a>
+          </li>
+  
+          
+          
+  
+        </ul> -->
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown">
+            <div class="tnr">
+              <a class=" dropdown-toggle" id="navbarDropdownMenuLink-4" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              <i class="fas fa-user"></i> HI USER </a>
+            <div class="dropdown-menu dropdown-menu-right dropdown-info" aria-labelledby="navbarDropdownMenuLink-4">
+              <a class="dropdown-item" href="#">My account</a>
+              <a class="dropdown-item" href="#">Log out</a>
+            </div>
+            </div>
+          </li>
+          <li class="nav-item">
+            <div class="tnr">
+            <a  href="#">
+              <i class="fab fa-gratipay"></i></i> WOWS
+              <span class="sr-only">(current)</span>
+            </a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <div class="tnr">
+            <a  href="#">
+              <i class="fas fa-shopping-bag"></i> </a>
+            </div>
+          </li>
+          
+        </ul>
+        
+      </div>
+      <!-- Collapsible content -->
+  
+    </nav>
+  </div>
+  
+  <!--/.Navbar-->
+  
+  
+  <div class="fold1">
+    <div class="botnav">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            
+            <li class="nav-item dropdown active">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                400076 powai
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Address</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                
+                
+              </div>
+            </li>
+            
+          </ul>
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                SHOP BY CATEGORY
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Address</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                
+                
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                SHOP BY BRANDS
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Address</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                
+                
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                SHOP NEARBY
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Address</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                
+                
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                OCCASIONS
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Address</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                
+                
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                MORE
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Address</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                
+                
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">BE A SELLER</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">BLOG</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" style="color: aquamarine;">REFER AND EARN</a>
+              <hr width="30px" >
+            </li>
+            
+          </ul>
+          
+        </div>
+      </nav>
+    </div>
+    <div class="imgcaor">
+      <div class="glide">
+        <div class="glide__track" data-glide-el="track">
+          <ul class="glide__slides">
+            <li class="glide__slide">
+              <div class="tpCard">
+                <div class="tpCard-top">
+                  <strong>WHATS COOKING</strong>
+                </div>
+                <hr width="50px">
+                <div class="tpCard-bot">
+                  Haldiram Snacks And Sweet
+                </div>
+              </div>
+            </li>
+            <li class="glide__slide">
+              <div class="tpCard">
+                <div class="tpCard-top">
+                  <strong>NOW TRENDING</strong> 
+                </div>
+                <hr width="50px">
+                <div class="tpCard-bot">
+                  SANJEEV KAPOOR MINT COOKIE
+                </div>
+              </div>
+            </li>
+            <li class="glide__slide">
+              <div class="tpCard">
+                <div class="tpCard-top">
+                 <strong>NEW ARRIVAL</strong> 
+                </div>
+                <hr width="50px">
+                <div class="tpCard-bot">
+                  WELCOME CHEF SANGITA RAMAN
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+    </div>
+    <div class="lobtn">
+      <div class="lobtn-fi">
+        <div>
+          <i class="fas fa-plane"></i>
+        </div>  
+        <div>
+          <ul>
+            <li><strong>FREE SHIPPING WITHIN INDIA</strong></li>
+            <li>On All Oreders USD 250,00+</li>
+          </ul>
+        </div>    
+      </div>
+      <div class="lobtn-se">
+          <div>
+            <i class="fas fa-headphones"></i>
+          </div>  
+          <div>
+            <ul>
+              <li><strong>24/7 CUSTOMER SERVICE</strong></li>
+              <li>GET HELP WHEN YOU NEED IT</li>
+            </ul>
+          </div>    
+        </div>     
+      
+        <div class="lobtn-th">
+          <div>
+            <i class="fas fa-undo-alt"></i></i>
+          </div>  
+          <div>
+            <ul>
+              <li><strong>DILEVERED KITCHEN FRESH</strong></li>
+              <li>30 DAYS MONEY BACK GUARANTEE.</li>
+            </ul>
+          </div>    
+        </div>
+        
+    </div>
+  </div>
+  <hr>
+  <div class="fold2">
+    <div class="topbtn">
+      <button type="submit">JUST FOR YOU</button>
+      <button type="submit">MOST POPOULAR</button>
+      <button type="submit">NEW</button>
+    </div>
+    <div class="shpCards">
+      <div class="shpCards-a">
+        <div>
+          <div class="carContainer">
+            <div class="carImg">
+              <img src="first.jpg" alt="someproduct">
+              <div class="middle">
+                <div class="text">
+                  <h6>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </h6>
+                  <h6>31 review</h6>
+                  <h6>Min Delivery INR 500</h6>
+                </div>
+              </div>
+            </div>
+            <div class="txtContain">
+              <div class="txtContain-top">
+              <div>
+              <h6><strong>DHOKLA AND KHANDVI</strong></h6>
+              <h6>
+                HALDIRAM | 1 box(250gm)
+              </h6>
+              </div>
+              <div class="likes">
+                <i class="far fa-heart">87</i>           
+              </div>
+              </div>
+              <div class="txtContain-bot">
+                <div><h6><strong>INR 250</strong></h6></div>
+                <div>
+                  <button type="submit"><h6>+ ADD TO BAG</h6></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="shpCards-bb">
+          <div class="carContainer">
+            <div class="carImg">
+              <img src="first.jpg" alt="someproduct">
+              <div class="middle">
+                <div class="text">
+                  <h6>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </h6>
+                  <h6>31 review</h6>
+                  <h6>Min Delivery INR 500</h6>
+                </div>
+              </div>
+            </div>
+            <div class="txtContain">
+              <div class="txtContain-top">
+              <div>
+              <h6><strong>DHOKLA AND KHANDVI</strong></h6>
+              <h6>
+                HALDIRAM | 1 box(250gm)
+              </h6>
+              </div>
+              <div class="likes">
+                <i class="far fa-heart">87</i>           
+              </div>
+              </div>
+              <div class="txtContain-bot">
+                <div><h6><strong>INR 250</strong></h6></div>
+                <div>
+                  <button type="submit"><h6>+ ADD TO BAG</h6></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="shpCards-aa">
+          <div class="carContainer">
+            <div class="carImg">
+              <img src="first.jpg" alt="someproduct">
+              <div class="middle">
+                <div class="text">
+                  <h6>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </h6>
+                  <h6>31 review</h6>
+                  <h6>Min Delivery INR 500</h6>
+                </div>
+              </div>
+            </div>
+            <div class="txtContain">
+              <div class="txtContain-top">
+              <div>
+              <h6><strong>DHOKLA AND KHANDVI</strong></h6>
+              <h6>
+                HALDIRAM | 1 box(250gm)
+              </h6>
+              </div>
+              <div class="likes">
+                <i class="far fa-heart">87</i>           
+              </div>
+              </div>
+              <div class="txtContain-bot">
+                <div><h6><strong>INR 250</strong></h6></div>
+                <div>
+                  <button type="submit"><h6>+ ADD TO BAG</h6></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="shipCards-b">
+        <div>
+          <div class="carContainer">
+            <div class="carImg">
+              <img src="first.jpg" alt="someproduct">
+              <div class="middle">
+                <div class="text">
+                  <h6>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </h6>
+                  <h6>31 review</h6>
+                  <h6>Min Delivery INR 500</h6>
+                </div>
+              </div>
+            </div>
+            <div class="txtContain">
+              <div class="txtContain-top">
+              <div>
+              <h6><strong>DHOKLA AND KHANDVI</strong></h6>
+              <h6 style="color: gray;">
+                HALDIRAM | 1 box(250gm)
+              </h6>
+              </div>
+              <div class="likes">
+                <i class="far fa-heart">87</i>           
+              </div>
+              </div>
+              <div class="txtContain-bot">
+                <div><h6><strong>INR 250</strong></h6></div>
+                <div>
+                  <button type="submit"><h6>+ ADD TO BAG</h6></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="shpCards-bb">
+          <div class="carContainer">
+            <div class="carImg">
+              <img src="first.jpg" alt="someproduct">
+              <div class="middle">
+                <div class="text">
+                  <h6>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </h6>
+                  <h6>31 review</h6>
+                  <h6>Min Delivery INR 500</h6>
+                </div>
+              </div>
+            </div>
+            <div class="txtContain">
+              <div class="txtContain-top">
+              <div>
+              <h6><strong>DHOKLA AND KHANDVI</strong></h6>
+              <h6>
+                HALDIRAM | 1 box(250gm)
+              </h6>
+              </div>
+              <div class="likes">
+                <i class="far fa-heart">87</i>           
+              </div>
+              </div>
+              <div class="txtContain-bot">
+                <div><h6><strong>INR 250</strong></h6></div>
+                <div>
+                  <button type="submit"><h6>+ ADD TO BAG</h6></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="shpCards-aa">
+          <div class="carContainer">
+            <div class="carImg">
+              <img src="first.jpg" alt="someproduct">
+              <div class="middle">
+                <div class="text">
+                  <h6>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </h6>
+                  <h6>31 review</h6>
+                  <h6>Min Delivery INR 500</h6>
+                </div>
+              </div>
+            </div>
+            <div class="txtContain">
+              <div class="txtContain-top">
+              <div>
+              <h6><strong>DHOKLA AND KHANDVI</strong></h6>
+              <h6>
+                HALDIRAM | 1 box(250gm)
+              </h6>
+              </div>
+              <div class="likes">
+                <i class="far fa-heart">87</i>           
+              </div>
+              </div>
+              <div class="txtContain-bot">
+                <div><h6><strong>INR 250</strong></h6></div>
+                <div>
+                  <button type="submit"><h6>+ ADD TO BAG</h6></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>     
+      
+    </div>
+    <div class="selBtn">
+      <button type="submit">view all</button>
+    </div>
+  </div>
+  <hr>
+  <div class="fold3">
+    <div class="folTopbtn">
+      <div class="folTopbtn-top">
+        <div>
+          <h5><strong>MEET THE TOP BRANDS OF INDIA</strong></h5>
+          <h6>Check out the featured eats of brands in this country</h6>
+        </div>
+      </div>
+      <div class="topbtn">
+        <button type="submit">ALL SHOPS</button>
+        <button type="submit">BAKERIES</button>
+        <button type="submit">CONFECTINARIES</button>
+        <button type="submit">RESTAURANTS</button>
+        <button type="submit">HOMEMADE</button>
+      </div>
+    </div>
+    <div class="folMid">
+      <div class="folMid-a">
+        <div class="folMid-b">
+          <div class="folMid-d">
+            
+          </div>
+          <div class="folMid-c">
+            <div class="folMid-e">
+              <h5><strong>HALDIRAM</strong></h5>
+              <h6>Mumbai</h6>
+            </div>
+            <div class="folMid-btn">
+              <h5>View Details</h5>
+            </div>
+          </div>
+        </div>
+        <div class="folMid-bb">
+          <div class="folMid-d">
+            
+          </div>
+          <div class="folMid-c">
+            <div class="folMid-e">
+              <h5><strong>CHEF DHAWAL KUMAR</strong></h5>
+              <h6>Mumbai</h6>
+            </div>
+            <div class="folMid-btn">
+              <h5>View Details</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="folMid-a">
+        <div class="folMid-b">
+          <div class="folMid-d">
+            
+          </div>
+          <div class="folMid-c">
+            <div class="folMid-e">
+              <h5><strong>HALDIRAM</strong></h5>
+              <h6>Mumbai</h6>
+            </div>
+            <div class="folMid-btn">
+              <h5>View Details</h5>
+            </div>
+          </div>
+        </div>
+        <div class="folMid-bb">
+          <div class="folMid-d">
+            
+          </div>
+          <div class="folMid-c">
+            <div class="folMid-e">
+              <h5><strong>CHEF DHAWAL KUMAR</strong></h5>
+              <h6>Mumbai</h6>
+            </div>
+            <div class="folMid-btn">
+              <h5>View Details</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="folMid-a">
+        <div class="folMid-b">
+          <div class="folMid-d">
+            
+          </div>
+          <div class="folMid-c">
+            <div class="folMid-e">
+              <h5><strong>HALDIRAM</strong></h5>
+              <h6>Mumbai</h6>
+            </div>
+            <div class="folMid-btn">
+              <h5>View Details</h5>
+            </div>
+          </div>
+        </div>
+        <div class="folMid-bb">
+          <div class="folMid-d">
+            
+          </div>
+          <div class="folMid-c">
+            <div class="folMid-e">
+              <h5><strong>CHEF DHAWAL KUMAR</strong></h5>
+              <h6>Mumbai</h6>
+            </div>
+            <div class="folMid-btn">
+              <h5>View Details</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="selBtn">
+      <button type="submit">view all</button>
+    </div>
+  </div>
+  <hr>
+  <div class="fold4">
+    <div class="emailForm-a">
+      <div class="emailForm-b">
+        <h5><strong>NEWS LETTER<hr></strong>
+          
+        </h5>
+        <h6>sign up with your email address for our new product</h6>
+      </div>
+      <div>
+        <div class="ser">
+          <div class="input-group md-form form-sm form-2 pl-0">
+          <input class="form-control my-0 py-1 red-border" type="text" placeholder="Enter your email" aria-label="Search">
+          <div class="input-group-append">
+            
+            <span class="input-group-text"><i class="fas fa-long-arrow-alt-right"></i></span>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <footer class="fold5">
+    <div class="somfoter">
+      <div class="topFooter">
+        <div class="topFooter-a">
+          <img src="Botlogo.PNG" alt="botlogo">
+        </div>
+        <div class="topFooter-b">
+          <div>
+            <ul>
+              <li>
+                <p>Your Online Food Destination, is a magical wand that conjures up mouth watering food specialities of diffent cities of India right into your home at just one click</p>
+              </li>
+              <li>
+                <i class="fab fa-cc-paypal"></i>
+                <i class="fab fa-cc-mastercard"></i>
+                <i class="fab fa-cc-visa"></i>
+              </li>
+            </ul>
+                       
+          </div>
+          
+        </div>
+        <div class="topFooter-c">
+          <div class="topFooter-d">
+            <div class="topFooter-dt"><strong>COMPANY</strong></div>
+            <hr>
+            <div>
+              <ul>
+                <li>About us</li>
+                <li>Blog</li>
+                <li>Become A Seller</li>
+                <li>Contact Us</li>
+              </ul>
+            </div>            
+          </div>
+
+          <div class="topFooter-d">
+            <div class="topFooter-dt"><strong>HELP US</strong></div>
+            <hr>
+            <div>
+              <ul>
+                <li>Payment</li>
+                <li>Free Shipping</li>
+                <li>Returns And Exchange</li>
+                <li>FAQs</li>
+              </ul>
+            </div>            
+          </div>
+
+          <div class="topFooter-d">
+            <div class="topFooter-dt"><strong>LOCATION</strong></div>
+            <hr>
+            <div>
+              <ul>
+                <li>
+                  <i class="fas fa-home"></i>Some address</li>
+                <li>
+                  <i class="fas fa-mobile-alt"></i>8433092984</li>
+                <li>
+                  <i class="far fa-envelope"></i>michael@lebros.us</li>                
+              </ul>
+            </div>            
+          </div>
+        </div>
+      </div>
+      <div class="botFooter">
+        <div class="botFootera">
+          <i class="far fa-copyright"></i> All rights reserved</div>
+        <div class="botFooterb">
+          <h6>Privacy and Cookies</h6>
+          
+          <h6>Terms and Conditions</h6>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js" integrity="sha512-BXASbMmKLu+RC5TDnkupyhvrjiOQXILh/5zgIS8k5JAC71a73lNweVEg/X+9XJQ7GK22PH9WpztY3zqrji+xrQ==" crossorigin="anonymous"></script>
+
+  <!-- JQuery -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.0/js/mdb.min.js"></script>
+
+  
+
+  <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
